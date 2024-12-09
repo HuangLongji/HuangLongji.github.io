@@ -3,7 +3,6 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <style class="darkreader darkreader--fallback" media="screen"></style>
     <style class="darkreader darkreader--text" media="screen"></style>
     <style class="darkreader darkreader--invert" media="screen">
@@ -431,7 +430,6 @@
     <div class="mainsection">
         <ul>
             <table width="100%">
-
                 <tbody>
                     <tr>
                         <td width="15%" valign="top">
@@ -519,35 +517,35 @@
     <div class="img_term">
         <img src="images/term.png" alt="term">
     </div>
+    <div>
     <pre style="margin-left: 350px; font-size: large;">
              <strong>智慧城市与交通数据挖掘组（SmartLab）</strong>
     <strong>研究</strong>
     1.-时空数据建模（预测（graph、grid）与补全（点云、graph、grid、image））； 
-    2.-时空大数据自监督学习；（时空图对比学习）回归、patch mask重建；增强中间嵌入；
-    3.-大数据下的城市画像建模，综合交通流、能源、人流、基站数据、app checkin等信息；
-    4.-大模型小型化定制化；TS for LLM的token对比学习；
-    5.-低空数据建模；基于无人机历史轨迹的城市低空公共航路设计；
-    6.-基站人流异常轨迹建模、个体行为与性格预警建模；人群关联性智能分析；
-    7.-时空因果推理；
+    2.-时空大数据自监督学习；时空图对比学习、时序patch mask重建；增强中间嵌入；
+    3.-大数据下的城市级/区级/社区级画像建模，综合交通流、能源、人流、基站数据、app checkin等信息；
+    4.-大模型小型化定制化；时空数据应用于大模型中的token优化；
+    5.-低空数据建模；基于无人机历史轨迹与原有公共交通的城市低空公共航路设计；
+    6.-人流异常轨迹建模、个体行为与轨迹预警建模（基站）；人群关联性智能分析；
+    7.-时空因果推理；金融数据预测与异常监测；
     8.-轨迹的压缩与细粒度处理；
     <strong>研发</strong>
     1.-OSM数据可视化、路网路径规划RP、匹配及可视化；
     2.-基于graphhopper的时空软件定制化开发
-    3.-桥梁建筑物多点监测下时空震动检测与AI智能分析及预警
-    4.-Web前后段开发、工业软件（采-MQTT、储-flask+DB、视-H5+JS、警-AI、控MQTT+CoAP）-横向；
-  
+    3.-桥梁建筑物多点震动监测下时空AI智能分析及预警
+    4.-Web前后端开发、工业软件（采-MQTT、储-flask+DB、视-H5+JS、警-AI、控MQTT+CoAP）；
     </pre>
-    <h3>专业分享/Share</h3>
-    <pre style="text-indent: 2em; font-size: large;">
-    2024年10月由我撰稿的专业知识分享关注总人数突破1万人（关注者主要是智慧交通与时空图数据挖掘领域的相关专家老师与研究学者）
-，欢迎大家关注 <a target=_blank href="https://www.zhihu.com/people/huangshao-62">知乎@黄龙吉</a>或者<a
-target=_blank href="https://mp.weixin.qq.com/s/BLt9l75rcfyRgBS3qT9bSQ">公众号@图与交通</a>。有需要加大工作宣传的专家老师和同学们，欢迎联系我。
-    </pre>
-    <div class="left">
-        <img src="images/zhihu.jpg" alt="zhihu">
     </div>
-    <div class="right">
-        <img src="images/wechat-official-account .jpg" alt="wechat-official-account">
+    <h3>专业分享/Share</h3>
+    <div>
+        <pre style="text-indent: 2em; font-size: large;">
+            2024年10月由我撰稿的专业知识分享关注总人数突破1万人（关注者主要是智慧交通与时空图数据挖掘领域的相关专家老师与研究学者）
+        ，欢迎大家关注 <a target=_blank href="https://www.zhihu.com/people/huangshao-62">知乎@黄龙吉</a>或者<a
+        target=_blank href="https://mp.weixin.qq.com/s/BLt9l75rcfyRgBS3qT9bSQ">公众号@图与交通</a>。有需要加大工作宣传的专家老师和同学们，欢迎联系我。
+        </pre>
+    </div>
+    <div class="both">
+        <img src="images/both.png" alt="both">
     </div>
     <div style="clear: both;">
     </div>
@@ -557,17 +555,18 @@ target=_blank href="https://mp.weixin.qq.com/s/BLt9l75rcfyRgBS3qT9bSQ">公众号
     <div class="img_term">
         <img src="images/image.png" alt="term">
     </div>
-    <pre style="text-indent: 2em; font-size: large; height: 200px; margin-top: 75px;">
-     项目组已经开发了一个基于Web的交通可视化后台管理系统，用于显
-    示城市交通状况及城市交通演化及可视化分析。并使用收集的高速公路数
-    据集METR-LA用于交通速度预测任务验证。同时基于滴滴盖亚开放数据平
-    台获取的西安市交通数据集，用于交通路况显示及拥堵预测分析，根据模
-    型预测出来的不同路段的拥堵指数，将不同路段标记为不同的颜色加以区
-    分。
-    </pre>
+    <div>
+        <pre style="text-indent: 2em; font-size: large; height: 200px; margin-top: 75px;">
+            项目组已经开发了一个基于Web的交通可视化后台管理系统，用于显
+           示城市交通状况及城市交通演化及可视化分析。并使用收集的高速公路数
+           据集METR-LA用于交通速度预测任务验证。同时基于滴滴盖亚开放数据平
+           台获取的西安市交通数据集，用于交通路况显示及拥堵预测分析，根据模
+           型预测出来的不同路段的拥堵指数，将不同路段标记为不同的颜色加以区
+           分。
+           </pre>
     </div>
     
-
+    </div>
     <hr>
     <div id="footer" style="font-size:10">Longji Huang <i>Last updated: Dece, 2024.</i></div>
     </div>
